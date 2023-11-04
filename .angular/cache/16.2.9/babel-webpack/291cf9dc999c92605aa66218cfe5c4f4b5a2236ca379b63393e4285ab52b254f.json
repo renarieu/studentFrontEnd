@@ -1,1 +1,0 @@
-{"ast":null,"code":"export class Student {}\n;","map":{"version":3,"names":["Student"],"sources":["/Users/renaudrieux/Github/studentFrontEnd/src/app/Student.ts"],"sourcesContent":["export class Student {\n    id:number;\n    name: string;\n\n\n };"],"mappings":"AAAA,OAAM,MAAOA,OAAO;AAKlB"},"metadata":{},"sourceType":"module","externalDependencies":[]}
