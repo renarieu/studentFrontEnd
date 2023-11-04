@@ -1,0 +1,19 @@
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Action</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of students">
+            <td> {{ student.name }} </td>
+            <td>
+				<button (click) ="deleteStudent(student.id)" class = "btn btn-danger">Delete</button>
+				<button (click) ="getStudent(student.id)" class = "btn btn-info" >See detail</button>
+                <button (click) ="updateStudent(student.id)" class = "btn btn-info" >update</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
